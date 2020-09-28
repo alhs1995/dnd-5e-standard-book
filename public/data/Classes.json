@@ -14,22 +14,26 @@
   {
     "className":"Cleric",
     "classChtName":"牧師",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Cleric.json"
   },
   {
     "className":"Druid",
     "classChtName":"德魯伊",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Druid.json"
   },
   {
     "className":"Fighter",
     "classChtName":"戰士",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Fighter.json"
   },
   {
     "className":"Monk",
     "classChtName":"武僧",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Monk.json"
   },
   {
     "className":"Paladin",
@@ -39,7 +43,8 @@
   {
     "className":"Ranger",
     "classChtName":"遊俠",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Ranger.json"
   },
   {
     "className":"Rogue",
