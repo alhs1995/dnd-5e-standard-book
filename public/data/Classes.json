@@ -54,16 +54,19 @@
   {
     "className":"Sorcerer",
     "classChtName":"術士",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Sorcerer.json"
   },
   {
     "className":"Warlock",
     "classChtName":"契術師",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Warlock.json"
   },
   {
     "className":"Wizard",
     "classChtName":"法師",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Wizard.json"
   }
 ]
