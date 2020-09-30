@@ -38,7 +38,8 @@
   {
     "className":"Paladin",
     "classChtName":"聖騎士",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Paladin.json"
   },
   {
     "className":"Ranger",
@@ -49,7 +50,8 @@
   {
     "className":"Rogue",
     "classChtName":"盜賊",
-    "book":"PHB"
+    "book":"PHB",
+    "sourceJson":"classes-Rogue.json"
   },
   {
     "className":"Sorcerer",

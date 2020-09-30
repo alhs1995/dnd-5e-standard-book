@@ -44,6 +44,16 @@
             <center v-if="cont.center" class="mt-2">
               <b>{{cont.center.bold}}</b>{{cont.center.content}}
             </center>
+            <b-jumbotron v-if="cont.notice" class="pt-3 pb-3">
+              <template v-slot:lead v-if="cont.notice.notice_title">{{cont.notice.notice_title}}</template>
+              <span v-for="(item,key) in cont.notice.notice_content" :key=key>
+                <span v-if="typeof(item)=='string'">{{item}}<br/></span>
+                <span v-if="typeof(item)=='object'">
+                  <b>{{item.bold}}.</b>
+                  <span v-for="(con,key) in item.content" :key=key>{{con}}<br/></span>
+                </span>
+              </span>
+            </b-jumbotron>
           </div>
         </span>
       </b-card-text>

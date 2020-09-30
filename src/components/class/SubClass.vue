@@ -8,7 +8,7 @@
         <span v-for="(cont,key) in content.content" :key=key>
           <span v-if="typeof (cont) === 'string'">{{cont}}</span>
           <span v-else-if="typeof (cont) === 'object' && typeof (cont[0]) === 'object'">
-            <div v-for="(cont,key) in cont" :key=key class="mb-3">
+            <div v-for="(cont,key) in cont" :key=key class="mb-2 mt-2">
               <h5 v-if="cont.title">{{cont.title}}</h5>
               <hr v-if="cont.title">
               <span v-for="(con,key) in cont.content" :key=key>
@@ -17,6 +17,16 @@
             </div>
           </span>
         </span>
+        <b-jumbotron v-if="content.notice" class="pt-3 pb-3">
+              <template v-slot:lead v-if="content.notice.notice_title">{{content.notice.notice_title}}</template>
+              <span v-for="(item,key) in content.notice.notice_content" :key=key>
+                <span v-if="typeof(item)=='string'">{{item}}<br/></span>
+                <span v-if="typeof(item)=='object'">
+                  <b>{{item.bold}}.</b>
+                  <span v-for="(con,key) in item.content" :key=key>{{con}}<br/></span>
+                </span>
+              </span>
+            </b-jumbotron>
       </b-card-text>
       <b-form-checkbox
         v-for="(objSub,index,key) in content.subs"
