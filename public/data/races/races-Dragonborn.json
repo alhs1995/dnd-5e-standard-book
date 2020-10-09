@@ -1,0 +1,151 @@
+{
+  "name":"Dragonborn",
+  "chtName":"龍裔",
+  "baseBok":"PHB",
+  "uncommon":true,
+  "traits":{
+    "abilityScores":"力量+2; 魅力+1",
+    "speed":"30呎",
+    "age":"矮人的成熟年幼的龍裔成長速度很快。他們在孵化後幾個小時後就會步行，在3歲的時候就達到人類10歲孩童的體型和發育程度，並在15歲時成年。他們可以活到大約80歲。速度和人類相同，但他們直到50歲之前都會被視作未成年。他們平均可以活大約350年。",
+    "alignment":"龍裔的陣營趨向極端，在善與惡的無盡戰爭中（各自代表巴哈姆特和提亞瑪特）有意識的選擇加入其中一邊。大部分的龍裔是善良的，但那些選擇站在提亞瑪特那一邊的龍裔則會是可怕的惡棍。",
+    "size":"龍裔比人類更高更重，他們在站立時遠超過6呎高，且有著平均250磅的體重。你的體型為中型。",
+    "languages":"你能夠說、讀、寫通用語和龍語。龍語被認為是最古老的語言之一，且在魔法研究中經常被使用。龍語對大部分其他生物而言聽起來非常刺耳，而且包含了很多硬輔音和噝聲擦音。",
+    "others":[
+      {
+        "bold":"龍族血統",
+        "content":[
+          "你擁有龍族的血統。從龍族血統表中選擇一個龍種。你的噴吐武器和傷害抗性將會由你所選的龍種而決定，如表所示。"
+        ],
+        "table":{
+          "caption":"龍族血統",
+          "fields":[
+            {
+              "key":"Dragon",
+              "label":"龍種"
+            },
+            {
+              "key":"DamageType",
+              "label":"傷害類型"
+            },
+            {
+              "key":"BreathWeapon",
+              "label":"噴吐武器"
+            }
+          ],
+          "item":[
+            {
+              "Dragon":"黑龍",
+              "DamageType":"酸蝕",
+              "BreathWeapon":"5呎x30呎直線 (敏捷豁免)"
+            },
+            {
+              "Dragon":"藍龍",
+              "DamageType":"閃電",
+              "BreathWeapon":"5呎x30呎直線 (敏捷豁免)"
+            },
+            {
+              "Dragon":"黃銅龍",
+              "DamageType":"火焰",
+              "BreathWeapon":"5呎x30呎直線 (敏捷豁免)"
+            },
+            {
+              "Dragon":"青銅龍",
+              "DamageType":"閃電",
+              "BreathWeapon":"5呎x30呎直線 (敏捷豁免)"
+            },
+            {
+              "Dragon":"赤銅龍",
+              "DamageType":"酸蝕",
+              "BreathWeapon":"5呎x30呎直線 (敏捷豁免)"
+            },
+            {
+              "Dragon":"金龍",
+              "DamageType":"火焰",
+              "BreathWeapon":"15呎錐形 (敏捷豁免)"
+            },
+            {
+              "Dragon":"綠龍",
+              "DamageType":"毒素",
+              "BreathWeapon":"15呎錐形 (體質豁免)"
+            },
+            {
+              "Dragon":"紅龍",
+              "DamageType":"火焰",
+              "BreathWeapon":"15呎錐形 (敏捷豁免)"
+            },
+            {
+              "Dragon":"銀龍",
+              "DamageType":"寒冰",
+              "BreathWeapon":"15呎錐形 (體質豁免)"
+            },
+            {
+              "Dragon":"白龍",
+              "DamageType":"寒冰",
+              "BreathWeapon":"15呎錐形 (體質豁免)"
+            }
+          ]
+        }
+      },
+      {
+        "bold":"噴吐武器",
+        "content":[
+          "你可以使用你的動作以呼出毀滅性的能量。你的龍族血統決定了這個吐息的尺寸、形狀、以及傷害類型。"
+        ]
+      }
+    ]
+  },
+  "content":[
+    {
+      "content":[
+        "生而為龍，就如其名所示，龍裔承受著眾人對他們的畏懼和誤解，驕傲地行走在世界上。由龍神或巨龍所創造，龍裔最初是從龍蛋中做為一支獨特種族而生，並結合了龍族與類人生物最優秀的一面。一些龍裔是真龍最忠實的使徒，而其他人則在偉大戰爭中集結成軍，還有一些人，則是漫無目的地四處漂泊。"
+      ]
+    },
+    {
+      "title":"龍族之傲",
+      "content":[
+        "龍裔看起來非常像是以類人型態直行站立的龍族，但他們並沒有翅膀和尾巴。首個誕生的龍裔有著色調與其龍族近親相符的鮮豔鱗片，但在世代混血的影響下，他們逐漸有了更為一致的外觀。他們小巧精細的鱗片通常是青銅或黃銅色，有時則會是腥紅、鐵鏽色、或銅綠色。他們的身形高大而強壯，身高通常接近6呎半，且重約300磅或以上。他們的手腳是強健而尖銳的爪子，每隻手都有著三根指爪和一個大拇指。",
+        "在某些龍裔氏族中，特定龍族血統的影響會特別強烈。這些龍裔通常相當誇耀他們那與龍族先祖更為相近的鱗片──如五色龍般的鮮紅色、綠色、藍色、白色、亮黑色、或者金屬般的金色、銀色、黃銅、赤銅、或青銅色。"
+      ]
+    },
+    {
+      "title":"氏族之傲",
+      "content":[
+        "對每個龍裔而言，氏族都比自己的性命更為重要。龍裔對其氏族的感恩和敬重遠超一切，甚至高過諸神。每個龍裔的行為都會反映出他或她氏族的榮耀，且使氏族蒙羞將會導致驅逐和流放的下場。每個龍裔都知曉他們在自己氏族中的身分和使命，且榮譽將驅使他們堅守其身分。",
+        "他們對自我完善的恆久追求也反映了整個種族的自負。龍裔重視技藝和對卓越的努力追求。他們厭惡失敗，且他們在竭盡全力之前，不會放棄面對任何挑戰。龍裔將精通特定技能做為其終生目標。而其他種族中同樣具有這種獻身特質的成員也更容易贏得龍裔的敬重。",
+        "儘管所有龍裔都致力於自給自足，他們仍知道到在面對艱困情境時，有時也是需要一點幫助的。但這類幫助最好還是來自氏族，而當整個氏族都需要援助時，他們會率先尋求另一個龍裔氏族的協助，而非其他種族或甚至諸神。"
+      ]
+    },
+    {
+      "title":"龍裔名字",
+      "content":[
+        "龍裔在出生時會被賦予一個名字，且他們會將他們的氏族名放在其名之前以示榮耀。乳名和綽號經常在同巢親屬被做為俗名或愛稱使用。這類名字可能是為了紀念某個事件，或用以描述某個習慣。",
+        {
+          "bold":"男性名",
+          "content":"Arjhan, Balasar, Bharash, Donaar, Ghesh, Hesken, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn"
+        },
+        {
+          "bold":"女性名",
+          "content":"Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit"
+        },
+        {
+          "bold":"乳名",
+          "content":"Climber, Earbenden Leaper, Pious, Shieldbiter, Zealous"
+        },
+        {
+          "bold":"氏族名",
+          "content":" Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Narixius, Ophinstalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit"
+        }
+      ],
+      "subInfo":{
+        "title":"龍人",
+        "content":[
+          {
+            "content":[
+              "在龍槍的設定中，邪惡女神塔克西絲(Takhisis)的追隨者們研發出了一種可以將金屬龍的龍蛋腐化，並生產出邪惡龍裔的黑暗儀式。這種邪惡的龍裔被稱作龍人。五種龍人分別對應著五種金屬龍，並為了塔克西絲而投入長槍之戰：他們分別是奧瑞克龍人(auraks, 金)、巴茲龍人(baaz, 黃銅)、波札克龍人(bozak, 青銅)、卡帕克龍人(kapak, 赤銅)、和希瓦克龍人(sivak, 銀)。他們並沒有其龍族噴吐武器，但具有獨特的魔法能力。"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

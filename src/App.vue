@@ -6,7 +6,7 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item-dropdown text="規則" right class="mr-4 ml-4">
-              <b-dropdown-item>快速參照</b-dropdown-item>
+              <b-dropdown-item disabled>快速參照</b-dropdown-item>
               <b-dropdown-item disabled>選用規則,變體與雜項</b-dropdown-item>
               <b-dropdown-item disabled>雜項表格</b-dropdown-item>
               <b-dropdown-divider></b-dropdown-divider>
@@ -17,7 +17,7 @@
             <b-nav-item-dropdown text="我是玩家" right class="mr-4">
               <b-dropdown-item to='/Player/Class'>職業</b-dropdown-item>
               <b-dropdown-item disabled>背景</b-dropdown-item>
-              <b-dropdown-item disabled>種族</b-dropdown-item>
+              <b-dropdown-item to='/Player/Races'>種族</b-dropdown-item>
               <b-dropdown-item disabled>專長</b-dropdown-item>
               <b-dropdown-divider></b-dropdown-divider>
               <b-dropdown-item disabled>屬性產生器</b-dropdown-item>

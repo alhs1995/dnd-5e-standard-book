@@ -1,0 +1,207 @@
+{
+  "name":"Human",
+  "chtName":"人類",
+  "baseBok":"PHB",
+  "traits":{
+    "abilityScores":"無",
+    "speed":"30呎",
+    "age":"人類在近二十歲時成年，且可活不到一世紀。",
+    "alignment":"人類並不傾向特定陣營。你可以在他們之中找到最好以及最壞的個體。",
+    "size":"人類身高體格之間的差距很大，從勉強5呎高到遠超過6呎都有。不論你在這範圍內的位置為何，你的體型為中型。",
+    "languages":"你可以說、讀、寫通用語和另一種你所選擇的語言。人類通常會學習那些與他們打交道的其他族類的語言，包括那些晦澀難解的方言。他們喜歡借用來自其他方言的字詞去點綴他們的言詞，像是獸人的咒罵、精靈音樂般的措辭、矮人的軍事片語、諸如此類。"
+  },
+  "content":[
+    {
+      "content":[
+        "在大多數的世界中，人類都是常見種族中最年輕的，他們比其他人更晚來到這個世界，相較矮人、精靈、和龍族們也更短命。或許也正是因為他們的短暫壽命，才驅使他們在其有限時間中為達成目標而不懈奮鬥。又或許他們覺得必須向那些古老種族證明些什麼，並因此透過征服和商貿建立起了強大的大國。無論驅使他們的是什麼，人類往往都是革新者、成就者、以及世界的先驅。"
+      ]
+    },
+    {
+      "title":"寬廣的宗譜",
+      "content":[
+        "由於他們對於遷徙和征戰的偏好，人類的外貌差異遠比其他常見種族要來的多變。他們的生理特徵各不相同，沒有所謂典型。人類的身高可以從5呎介於略超過6呎，且重量分布從125到250磅。人類膚色從黝黑到雪白，髮色從烏黑到金黃（髮質還分為捲曲、微卷、和直髮），且男性個體可能會長有濃密或稀疏的鬍鬚。許多人類混雜著非人類的血統，並因此帶有些許精靈、獸人、或其他種族的生理特徵。人類在將近二十歲時成年，且很少活超過一個世紀。"
+      ]
+    },
+    {
+      "title":"萬般差異",
+      "content":[
+        "人類是所有常見種族中適應力最強，且最具野心的族群。在他們定居的多樣土地上，人類有著廣泛不同的品味、道德觀、和風俗習慣。然而，當他們定居下來，他們便會待在那裡；他們建造了經久不衰的城市，以及那些延續漫長世紀的偉大王國。人類個體的壽命也許相對短暫，但一個人類民族或文化所傳承的傳統起源，卻能夠遠遠超過任何單一人類記憶所能及的時間。他們完全活在當下（這也讓他們相當適合冒險生涯），但同時會為了未來而計畫，努力奮鬥以為後世留下遺產。無論是個體還是團隊，人類都善於抓住機遇，並時刻準備好面對政治或社會環境的變化。"
+      ]
+    },
+    {
+      "title":"永續體系",
+      "content":[
+        "在精靈或矮人獨自一人承擔起守護某個特殊場所或重大秘密的責任時，人類建立起神聖的教團和機構以達成同樣目的。當矮人氏族和半身人長老將古老傳統一代代傳授下去，人類的廟宇、政府、圖書館、和法典則將他們的傳統固定在歷史的基石之上。人類夢想著永生不朽，而（除了少數尋求透過成為不死生物或求聖飛升以逃離死亡魔爪的人之外）他們藉由確保自己在逝去之後仍會被紀念，以此達成永生的追求。",
+        "儘管有些人類可能懷有仇外思想，但他們整個社會都傾向包容。跟非人類國家中居住著人類的比例相比，人類國度對於非人類種族的接納程度明顯要大得多。"
+      ]
+    },
+    {
+      "title":"野心的典範",
+      "content":[
+        "尋求冒險的人類是這勇敢且雄心勃勃的種族中最勇猛而進取的一群。他們透過積聚權力、財富、和名聲以贏取他們同伴的敬重。比起其他族群，人類更推崇事業與成就，而非領土或組織。"
+      ],
+      "subInfo":{
+        "title":"所有人的第二好友",
+        "content":[
+          {
+            "content":[
+              "正如他們擅於與彼此交往，人類也很容易與其他種族的成員打成一片。他們幾乎和所有人都能友好相處，儘管他們可能並不會與很多人有緊密的關係。人類通常擔當著使節、外交官、仲裁者、商人、和各樣的公職官員。"
+            ]
+          },
+          {
+            "bold":"矮人",
+            "content":[
+              "他們是結實的夥伴，堅定的朋友，而且說話算話。不過，他們對黃金的貪婪可能正是他們衰落的原因。"
+            ]
+          },
+          {
+            "bold":"精靈",
+            "content":[
+              "最好不要走進精靈們的森林。他們不喜歡入侵者，且你被他們蠱惑的可能性就和被射成刺蝟一樣高。儘管如此，如果精靈可以放下他們該死的種族驕傲，並好好的跟你平等相處，那你必然可以從他們身上學到很多東西。"
+            ]
+          },
+          {
+            "bold":"半身人",
+            "content":[
+              "只要不考慮你的頭會三不五時撞到天花板，就沒什麼能比得過在半身人家中用餐的美好──在舒適溫暖的火爐前，享受美味的食物和精彩的故事。如果半身人們能有哪怕是點點的野心，他們可能真的會有所成就。"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title":"人類姓名與民族",
+      "content":[
+        "與其他文化相比太過廣泛的多樣性，使得人類整體來說並沒有所謂的典型姓名。有些人類父母會給他們的孩子取一個來自其他語言的名字，像是矮人語或精靈語（多少有些發音不標準），但大部分的父母仍會根據他們區域的文化風俗或祖先流傳下來的取名慣例來為孩子命名。",
+        "人類的物質文化和個人特徵會隨地域不同而有巨大的差異。舉例來說，在被遺忘的國度，大陸西北部的銀月聯邦(Silver Marches)與遙遠東方的突米斯(Turmish)或因布突(Impiltur)在衣著、建築、飲食、音樂、和文學上就相差甚遠，而跟更遙遠的卡拉圖(Kara-Tur)相比則又更是大相逕庭。至於人類的生理特徵則因其祖先古早以前的大遷徙而各有不同，因此在銀月聯邦的人類們可能會有各種不同膚色和特徵的個體存在。",
+        "在被遺忘的國度，存在著九種被廣泛認知的人種，而在費倫更偏僻的地區中甚至還存在著數十種其他民族。這些族群，以及他們成員的典型命名原則，可以被用在任何世界中做為你人類角色的創作靈感。"
+      ],
+      "commonType":[
+        {
+          "chtName":"卡琳珊",
+          "name":"Calishite",
+          "content":[
+            "身形比其他人類更矮小而纖瘦，卡琳珊人有著暗褐色的肌膚、頭髮、和眼睛。",
+            "他們主要分布在費倫的西南方。"
+          ],
+          "commonNames":{
+            "men":"Aseir, Bardeid, Haseid, Khemed, Mehmen, Sudeiman, Zasheir",
+            "women":"Atala, Ceidil, Hama, Jasmal, Meilil, Seipora, Yasheira, Zasheida",
+            "lastName":"Basha, Dumein, Jassan, Khalid, Mostana, Pashar, Rein"
+          }
+        },
+        {
+          "chtName":"瓊達斯",
+          "name":"Chondathan",
+          "content":[
+            "瓊達斯人是一群纖瘦，有著黃褐色皮膚的民族，他們棕色頭髮的髮色範圍從幾近金黃色到幾乎純黑都有。他們大部分身材高挑且有著綠色或棕色的眼睛，但這些特徵並不那麼普遍。瓊達斯血統的人類支配著費倫大陸的中部，內海(Inner Sea)的周遭地帶。"
+          ],
+          "commonNames":{
+            "men":"Darvin, Dorn, Evendur, Gorstag, Grim, Helm, Malark, Morn, Randal, Stedd",
+            "women":"Arveene, Esvele, Chessail, Kerri, Lureene, Miri, Rowan, Shandri, Tessele",
+            "lastName":"Amblecrown, Buckman, Dundragon, Evenwood, Greycastle, Tallstag"
+          }
+        },
+        {
+          "chtName":"達瑪拉",
+          "name":"Damaran",
+          "content":[
+            "主要分布於費倫的西北區域，達瑪拉人有著適中的身高和體型，膚色範圍自黃褐色到白色。他們的頭髮通常是棕色或黑色，且儘管他們的瞳色各種各樣，但仍以棕色最為常見。"
+          ],
+          "commonNames":{
+            "men":"Bor, Fodel, Glar, Grigor, Igan, Ivor, Kosef, Mival, Orel, Pavel, Sergor",
+            "women":"Alethra, Kara, Katernin, Mara, Natali, Olma, Tana, Zora",
+            "lastName":"Bersk, Chernin, Dotsk, Kulenov, Marsk, Nemetsk, Shemov, Starag"
+          }
+        },
+        {
+          "chtName":"伊路斯坎",
+          "name":"Illuskan",
+          "content":[
+            "伊路斯坎人是身形高挑，有著藍色或藍灰色雙眼的白膚族群。他們大部分有著鴉黑色的頭髮，但那些居住在極西北區域的人們則會有金黃色、紅色、或亮棕色的頭髮。"
+          ],
+          "commonNames":{
+            "men":"Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth",
+            "women":"Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra",
+            "lastName":"Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver"
+          }
+        },
+        {
+          "chtName":"穆蘭",
+          "name":"Mulan",
+          "content":[
+            "支配著內海(Inner Sea)的東岸和東南岸，穆蘭人普遍高挑，苗條，且有著琥珀色的肌膚，以及淡褐色或棕色的眼睛。他們的髮色範圍自黑色到暗棕色，然而在以穆蘭人為主的國家中，貴族和很多其他穆蘭人都會剃光他們所有的頭髮。"
+          ],
+          "commonNames":{
+            "men":"Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur",
+            "women":"Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis",
+            "lastName":"Ankhalab, Anskuld, Fezim, Hahpet, Nathandem, Sepret, Uuthrakt"
+          }
+        },
+        {
+          "chtName":"萊瑟曼",
+          "name":"Rashemi",
+          "content":[
+            "最常見於內海(Inner Sea)東部且常與穆蘭人一同混居，萊瑟曼人普遍身材矮小而結實強壯。他們通常有著黝黑的膚色、暗色的眼睛，和濃密的黑髮。"
+          ],
+          "commonNames":{
+            "men":"Borivik, Faurgar, Jandar, Kanithar, Madislak, Ralmevik, Shaumar, Vladislak",
+            "women":"Fyevarra, Hulmarra, Immith, Imzel, Navarra, Shevarra, Tammith, Yuldra",
+            "lastName":"Chergoba, Dyernina, Iltazyara, Murnyethara, Stayanoga, Ulmokina"
+          }
+        },
+        {
+          "chtName":"受國",
+          "name":"Shou",
+          "content":[
+            "受國人是那位在費倫遠東的卡拉圖地區中數量最多且最強大的人種。他們的膚色呈現偏黃的青銅色，且有著黑髮和黑色眼睛。受國人的姓氏通常排在其名字之前。"
+          ],
+          "commonNames":{
+            "men":"An, Chen, Chi, Fai, Jiang, Jun, Lian, Long, Meng, On, Shan, Shui, Wen",
+            "women":"Bai, Chao, Lia, Lei, Mei, Qiao, Shui, Tai",
+            "lastName":"Chien, Huang, Kao, Kung, Lao, Ling, Mei, Pin, Shin, Sum, Tan, Wan"
+          }
+        },
+        {
+          "chtName":"泰瑟爾",
+          "name":"Tethyrian",
+          "content":[
+            "廣泛分布在費倫西岸的整個劍灣地區(Sword Coast)，泰瑟爾人有著中等身形的體格和身高。越往北方，他們黝黑的肌膚就會顯得越蒼白。他們的髮色和瞳色各種各樣，但棕髮和藍眼睛則最為常見。泰瑟爾人大多使用瓊達斯人的命名方式。"
+          ]
+        },
+        {
+          "chtName":"圖拉米",
+          "name":"Turami",
+          "content":[
+            "原生於內海(Inner Sea)的南岸，圖拉米人通常高大而健壯，長著深紅褐色的肌膚，捲曲的黑髮，以及黑色的雙眼。"
+          ],
+          "commonNames":{
+            "men":"Anton, Diero, Marcon, Pieron, Rimardo, Romero, Salazar, Umbero",
+            "women":"Balama, Dona, Faila, Jalana, Luisa, Marta, Quara, Selise, Vonda",
+            "lastName":"Agosto, Astorio, Calabra, Domine, Falone, Marivaldi, Pisacar, Ramondo"
+          }
+        }
+      ]
+    }
+  ],
+  "subraces":[
+      {
+        "chtName":"一般人類",
+        "name":"base",
+        "book":"PHB",
+        "traits":{
+          "abilityScores":"力量+1 敏捷+1 體質+1 智力+1 睿智+1 魅力+1"
+        }
+      },
+      {
+      "chtName":"變體",
+      "name":"Variant",
+      "book":"PHB",
+      "traits":{
+        "abilityScores":"選擇 任意二項+1",
+        "skills":"你熟練於一個你所選擇的技能。",
+        "feat":"你獲得一個你所選擇的專長。"
+      } 
+    }
+  ]
+}
