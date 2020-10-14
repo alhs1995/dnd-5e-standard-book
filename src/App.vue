@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <b-navbar toggleable="lg" type="dark" variant="secondary">
+      <b-navbar toggleable="lg" type="dark" variant="secondary" sticky>
         <b-navbar-brand to="/">DnD 5E 中文查詢區</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
@@ -16,7 +16,7 @@
             </b-nav-item-dropdown>
             <b-nav-item-dropdown text="我是玩家" right class="mr-4">
               <b-dropdown-item to='/Player/Class'>職業</b-dropdown-item>
-              <b-dropdown-item disabled>背景</b-dropdown-item>
+              <b-dropdown-item to='/Player/Background'>背景</b-dropdown-item>
               <b-dropdown-item to='/Player/Races'>種族</b-dropdown-item>
               <b-dropdown-item disabled>專長</b-dropdown-item>
               <b-dropdown-divider></b-dropdown-divider>
