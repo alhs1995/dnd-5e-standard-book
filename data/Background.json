@@ -1,0 +1,110 @@
+[
+  {
+    "name":"Acolyte",
+    "chtName":"侍僧",
+    "skills":"察言觀色、宗教",
+    "book":"PHB"
+  },
+  {
+    "name":"Charlatan",
+    "chtName":"詐欺師",
+    "skills":"欺瞞, 手上把戲",
+    "book":"PHB"
+  },
+  {
+    "name":"Criminal",
+    "chtName":"罪犯",
+    "skills":"欺瞞, 隱匿",
+    "book":"PHB"
+  },
+  {
+    "name":"Spy",
+    "chtName":"間諜",
+    "skills":"欺瞞, 隱匿",
+    "book":"PHB"
+  },
+  {
+    "name":"Entertainer",
+    "chtName":"藝人",
+    "skills":"特技, 表演",
+    "book":"PHB"
+  },
+  {
+    "name":"Gladiator",
+    "chtName":"角鬥士",
+    "skills":"特技, 表演",
+    "book":"PHB"
+  },
+  {
+    "name":"Folk Hero",
+    "chtName":"平民英雄",
+    "skills":"動物馴養, 求生",
+    "book":"PHB"
+  },
+  {
+    "name":"Guild Artisan",
+    "chtName":"公會工匠",
+    "skills":"察言觀色, 說服",
+    "book":"PHB"
+  },
+  {
+    "name":"Guild Merchant",
+    "chtName":"公會商人",
+    "skills":"察言觀色, 說服",
+    "book":"PHB"
+  },
+  {
+    "name":"Hermit",
+    "chtName":"隱士",
+    "skills":"醫藥, 宗教",
+    "book":"PHB"
+  },
+  {
+    "name":"Noble",
+    "chtName":"貴族",
+    "skills":"歷史, 說服",
+    "book":"PHB"
+  },
+  {
+    "name":"Knight",
+    "chtName":"騎士",
+    "skills":"歷史, 說服",
+    "book":"PHB"
+  },
+  {
+    "name":"Outlander",
+    "chtName":"化外之民",
+    "skills":"運動, 求生",
+    "book":"PHB"
+  },
+  {
+    "name":"Sage",
+    "chtName":"學者",
+    "skills":"奧秘, 歷史",
+    "book":"PHB"
+  },
+  {
+    "name":"Sailor",
+    "chtName":"水手",
+    "skills":"運動, 感知",
+    "book":"PHB"
+  },
+  {
+    "name":"Pirate",
+    "chtName":"海盜",
+    "skills":"運動, 感知",
+    "book":"PHB"
+  },
+  {
+    "name":"Soldier",
+    "chtName":"士兵",
+    "skills":"運動, 威嚇",
+    "book":"PHB"
+  },
+  {
+    "name":"Urchin",
+    "chtName":"孤兒",
+    "skills":"手上把戲, 隱匿",
+    "book":"PHB"
+  }
+]
