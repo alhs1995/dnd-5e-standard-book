@@ -1,0 +1,14 @@
+os: linux
+dist: bionic
+language: node_js
+node_js: 
+- 12
+
+install:
+- npm install
+
+before_script:
+- npm run build
+
+script:
+- sh ./deploy.sh
