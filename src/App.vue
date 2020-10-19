@@ -79,4 +79,7 @@
     font-family: 'Courier New', Courier, monospace;
   }
 }
+.pointerCls{
+  cursor: pointer;
+}
 </style>

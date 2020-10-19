@@ -2,8 +2,8 @@
   <div class="Races">
     <b-container fluid>
       <b-row cols-xl="8" cols-lg="6" cols-md="4" cols-sm="2" cols="2">
-        <b-col v-for="(race,key) in races" :key="key" class="mt-3">
-          <b-card body-class="p-2" :title="race.racesCht" :sub-title="race.races" @click="selectRaces(race.sourceJson,race.races)">
+        <b-col v-for="(race,key) in races"  :key="key" class="mt-3">
+          <b-card body-class="p-2" :title="race.racesCht" :sub-title="race.races" class='pointerCls' @click="selectRaces(race.sourceJson,race.races)">
             <b-card-text>來源：<font :color="race.book|bookColor">{{race.book}}</font></b-card-text>
           </b-card>
         </b-col>

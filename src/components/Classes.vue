@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row cols-xl="8" cols-lg="6" cols-md="4" cols-sm="2" cols="2">
         <b-col v-for="(cls,key) in classes" :key="key" class="mt-3">
-          <b-card body-class="p-2" :title="cls.classChtName" :sub-title="cls.className" @click="selectClass(cls.sourceJson,cls.className)">
+          <b-card body-class="p-2" :title="cls.classChtName" :sub-title="cls.className" class='pointerCls' @click="selectClass(cls.sourceJson,cls.className)">
             <b-card-text>來源：<font :color="cls.book|bookColor">{{cls.book}}</font></b-card-text>
           </b-card>
         </b-col>
