@@ -77,7 +77,7 @@ export default {
   mounted () {
     const that = this
     axios
-      .get('/data/Classes.json')
+      .get(process.env.BASE_URL + 'data/Classes.json')
       .then((response) => {
         that.classes = response.data
       })
@@ -87,7 +87,7 @@ export default {
   },
   methods: {
     selectClass (classes, className) {
-      let importJsonName = '/data/class/'
+      let importJsonName = process.env.BASE_URL + 'data/class/'
       importJsonName += classes
       const that = this
       that.mainClass = className

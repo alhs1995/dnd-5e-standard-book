@@ -36,7 +36,7 @@ export default {
   mounted () {
     const that = this
     axios
-      .get('/data/Races.json')
+      .get(process.env.BASE_URL + 'data/Races.json')
       .then((response) => {
         that.races = response.data
       })
@@ -46,7 +46,7 @@ export default {
   },
   methods: {
     selectRaces (races, raceName) {
-      let importJsonName = '/data/races/'
+      let importJsonName = process.env.BASE_URL + 'data/races/'
       importJsonName += races
       const that = this
       that.mainRaces = raceName

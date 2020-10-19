@@ -110,7 +110,7 @@ export default {
   mounted () {
     const that = this
     axios
-      .get('/data/Background.json')
+      .get(process.env.BASE_URL + 'data/Background.json')
       .then((response) => {
         that.backgroundList = response.data
         that.getItemInfo(response.data[0].name)
@@ -126,7 +126,7 @@ export default {
     },
     getItemInfo (itemName) {
       const that = this
-      let importJsonName = '/data/background/'
+      let importJsonName = process.env.BASE_URL + 'data/background/'
       importJsonName += 'background-' + itemName + '.json'
       axios
         .get(importJsonName)
