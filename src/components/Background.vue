@@ -93,15 +93,18 @@ export default {
       field: [
         {
           key: 'chtName',
-          label: '名稱'
+          label: '名稱',
+          sortable: true
         },
         {
           key: 'skills',
-          label: '技能熟練'
+          label: '技能熟練',
+          sortable: true
         },
         {
           key: 'book',
-          label: '資源'
+          label: '資源',
+          sortable: true
         }
       ],
       selectedBackground: {}

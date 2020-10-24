@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <b-navbar toggleable="lg" type="dark" variant="secondary" sticky>
-        <b-navbar-brand to="/">DnD 5E 中文查詢區</b-navbar-brand>
+        <b-navbar-brand to="/">AoMaple的DND資料集散地</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
@@ -18,7 +18,7 @@
               <b-dropdown-item to='/Player/Class'>職業</b-dropdown-item>
               <b-dropdown-item to='/Player/Background'>背景</b-dropdown-item>
               <b-dropdown-item to='/Player/Races'>種族</b-dropdown-item>
-              <b-dropdown-item disabled>專長</b-dropdown-item>
+              <b-dropdown-item to='/Player/Feats'>專長</b-dropdown-item>
               <b-dropdown-divider></b-dropdown-divider>
               <b-dropdown-item disabled>屬性產生器</b-dropdown-item>
               <b-dropdown-item disabled>名字產生器</b-dropdown-item>
