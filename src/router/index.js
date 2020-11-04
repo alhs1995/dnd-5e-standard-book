@@ -21,6 +21,11 @@ const routes = [
     path: '/player/:type',
     name: 'Player',
     component: () => import('../views/Players.vue')
+  },
+  {
+    path: '/reference/:type',
+    name: 'Reference',
+    component: () => import('../views/Reference.vue')
   }
 ]
 

@@ -51,11 +51,11 @@
 </template>
 
 <script>
-import ClassBasicInfo from '@/components/class/ClassBasicInfo.vue'
-import ClassIntro from '@/components/class/ClassIntro.vue'
-import ClassLevelTable from '@/components/class/ClassLevelTable.vue'
-import MutiContent from '@/components/class/MutiContent.vue'
-import SubClass from '@/components/class/SubClass.vue'
+import ClassBasicInfo from '@/components/player/class/ClassBasicInfo.vue'
+import ClassIntro from '@/components/player/class/ClassIntro.vue'
+import ClassLevelTable from '@/components/player/class/ClassLevelTable.vue'
+import MutiContent from '@/components/player/class/MutiContent.vue'
+import SubClass from '@/components/player/class/SubClass.vue'
 const axios = require('axios').default
 export default {
   name: 'Class',

@@ -79,8 +79,8 @@
 </template>
 
 <script>
-import RaceTraits from '@/components/races/raceTraits.vue'
-import RaceUncommon from '@/components/races/raceUncommon.vue'
+import RaceTraits from '@/components/player/races/raceTraits.vue'
+import RaceUncommon from '@/components/player/races/raceUncommon.vue'
 // const axios = require('axios').default
 export default {
   name: 'raceBase',

@@ -1,6 +1,6 @@
 <template>
   <div class="Player">
-    <!-- <b-breadcrumb :items="bread"></b-breadcrumb> -->
+    <b-breadcrumb :items="items"></b-breadcrumb>
     <Class v-if="this.$route.params.type==='Class'"/>
     <Races v-else-if="this.$route.params.type==='Races'"/>
     <Background v-else-if="this.$route.params.type==='Background'"/>
@@ -10,10 +10,10 @@
 
 <script>
 // @ is an alias to /src
-import Class from '@/components/Classes.vue'
-import Races from '@/components/Races.vue'
-import Background from '@/components/Background.vue'
-import Feats from '@/components/Feats.vue'
+import Class from '@/components/player/Classes.vue'
+import Races from '@/components/player/Races.vue'
+import Background from '@/components/player/Background.vue'
+import Feats from '@/components/player/Feats.vue'
 export default {
   name: 'Player',
   components: {
@@ -30,43 +30,46 @@ export default {
   },
   mounted () {
     this.pType = this.$route.params.type
-    // this.bread()
+    this.bread()
   },
   methods: {
-    bread: () => {
+    bread () {
       const that = this
-      let lsItemName = ''
-      console.log(this.pType)
-      const thisType = that.pType
-      switch (thisType) {
-        case 'Class':
-          lsItemName = '職業'
-          break
-        case 'Races':
-          lsItemName = '種族'
-          break
-        case 'Background':
-          lsItemName = '背景'
-          break
-        case 'Feats':
-          lsItemName = '專長'
-          break
-      }
       const lsRtn = [
         {
           text: '首頁',
-          href: '#'
+          to: { name: 'Home' }
         },
         {
           text: '玩家',
-          href: '#'
+          active: true
         },
         {
-          text: lsItemName,
+          text: '',
           active: true
         }
       ]
+      switch (that.pType) {
+        case 'Class':
+          lsRtn[2].text = '職業'
+          break
+        case 'Races':
+          lsRtn[2].text = '種族'
+          break
+        case 'Background':
+          lsRtn[2].text = '背景'
+          break
+        case 'Feats':
+          lsRtn[2].text = '專長'
+          break
+      }
       that.items = lsRtn
+    }
+  },
+  watch: {
+    $route (to, from) {
+      this.pType = this.$route.params.type
+      this.bread()
     }
   }
 }

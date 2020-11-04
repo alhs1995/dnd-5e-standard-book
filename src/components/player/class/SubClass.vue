@@ -64,7 +64,7 @@
 
 <script>
 // const axios = require('axios').default
-import MutiContent from '@/components/class/MutiContent.vue'
+import MutiContent from '@/components/player/class/MutiContent.vue'
 export default {
   name: 'SubClass',
   components: {

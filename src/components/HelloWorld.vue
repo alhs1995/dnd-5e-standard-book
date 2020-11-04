@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <b-container fluid>
-      <b-alert show variant="warning"><b>注意！</b>這裡是alhs1995整理的翻譯資源，僅提供認識的玩家使用。如果擅自使用導致觸犯任何法律，本站不負責，使用本站請自行評估風險。</b-alert>
+      <b-alert show variant="warning"><b>注意！</b>這裡是AoMaple整理的翻譯資源，僅提供認識的玩家使用。如果擅自使用導致觸犯任何法律，本站不負責，使用本站請自行評估風險。</b-alert>
       <b-row>
         <b-col>
           完工之後打算自己寫一個屬於自己的世界觀。

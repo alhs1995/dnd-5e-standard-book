@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import RaceBase from '@/components/races/raceBase.vue'
+import RaceBase from '@/components/player/races/raceBase.vue'
 const axios = require('axios').default
 export default {
   name: 'Races',
