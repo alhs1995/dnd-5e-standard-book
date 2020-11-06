@@ -1,5 +1,5 @@
 <template>
-  <div class="Feats">
+  <div class="Conditions">
     <listNDetail :field="field" :itemList="featsList" :itemDetail="featDetail"/>
   </div>
 </template>
@@ -8,7 +8,7 @@
 import listNDetail from '@/components/ListNDetail'
 const axios = require('axios').default
 export default {
-  name: 'Feats',
+  name: 'Conditions',
   components: {
     listNDetail
   },
@@ -17,18 +17,13 @@ export default {
       featsList: [],
       field: [
         {
+          key: 'type',
+          label: '類型',
+          sortable: true
+        },
+        {
           key: 'chtName',
           label: '名稱',
-          sortable: true
-        },
-        {
-          key: 'ability',
-          label: '屬性值',
-          sortable: true
-        },
-        {
-          key: 'prerequisite',
-          label: '條件',
           sortable: true
         },
         {
@@ -44,7 +39,7 @@ export default {
   mounted () {
     const that = this
     axios
-      .get(process.env.BASE_URL + 'data/Feats.json')
+      .get(process.env.BASE_URL + 'data/Conditions.json')
       .then((response) => {
         // 先排序再塞
         that.featsList = Object.keys(response.data)
@@ -58,7 +53,7 @@ export default {
         console.log(error)
       })
     axios
-      .get(process.env.BASE_URL + 'data/feat/feat-Detail.json')
+      .get(process.env.BASE_URL + 'data/conditions/Conditions-Detail.json')
       .then((response) => {
         // 先排序再塞
         that.featDetail = response.data

@@ -1,14 +1,17 @@
 <template>
   <div class="Reference">
     <b-breadcrumb :items="items"></b-breadcrumb>
+    <Conditions v-if="this.$route.params.type==='Conditions'"></Conditions>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Conditions from '@/components/reference/Conditions.vue'
 export default {
   name: 'Reference',
   components: {
+    Conditions
   },
   data () {
     return {
@@ -38,8 +41,8 @@ export default {
         }
       ]
       switch (that.pType) {
-        case '':
-          lsRtn[2].text = ''
+        case 'Conditions':
+          lsRtn[2].text = '狀態與疾病'
           break
       }
       that.items = lsRtn
