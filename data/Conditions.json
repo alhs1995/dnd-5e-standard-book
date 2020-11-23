@@ -7,7 +7,7 @@
   },
   {
     "name":"BlindingSickness",
-    "chtName":"Blinding Sickness",
+    "chtName":"失明症",
     "type":"疾病",
     "book":"PHB"
   },
@@ -19,7 +19,7 @@
   },
   {
     "name":"Concentration",
-    "chtName":"Concentration",
+    "chtName":"專注",
     "type":"其他",
     "book":"PHB"
   },
@@ -37,13 +37,13 @@
   },
   {
     "name":"FilthFever",
-    "chtName":"Filth Fever",
+    "chtName":"穢熱病",
     "type":"疾病",
     "book":"PHB"
   },
   {
     "name":"FleshRot",
-    "chtName":"Flesh Rot",
+    "chtName":"血肉潰爛",
     "type":"疾病",
     "book":"PHB"
   },
@@ -73,7 +73,7 @@
   },
   {
     "name":"Mindfire",
-    "chtName":"Mindfire",
+    "chtName":"腦熱症",
     "type":"疾病",
     "book":"PHB"
   },
@@ -109,13 +109,13 @@
   },
   {
     "name":"Seizure",
-    "chtName":"Seizure",
+    "chtName":"癲癇",
     "type":"疾病",
     "book":"PHB"
   },
   {
     "name":"SlimyDoom",
-    "chtName":"Slimy Doom",
+    "chtName":"黏濘惡疾",
     "type":"疾病",
     "book":"PHB"
   },
