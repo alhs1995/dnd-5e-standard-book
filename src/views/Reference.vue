@@ -2,16 +2,19 @@
   <div class="Reference">
     <b-breadcrumb :items="items"></b-breadcrumb>
     <Conditions v-if="this.$route.params.type==='Conditions'"></Conditions>
+    <Languages v-if="this.$route.params.type==='Languages'"></Languages>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Conditions from '@/components/reference/Conditions.vue'
+import Languages from '@/components/reference/Languages.vue'
 export default {
   name: 'Reference',
   components: {
-    Conditions
+    Conditions,
+    Languages
   },
   data () {
     return {

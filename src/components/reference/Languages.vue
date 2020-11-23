@@ -1,5 +1,5 @@
 <template>
-  <div class="Conditions">
+  <div class="Languages">
     <listNDetail :field="field" :itemList="featsList" :itemDetail="featDetail"/>
   </div>
 </template>
@@ -8,7 +8,7 @@
 import listNDetail from '@/components/ListNDetail'
 const axios = require('axios').default
 export default {
-  name: 'Conditions',
+  name: 'Languages',
   components: {
     listNDetail
   },
@@ -27,6 +27,16 @@ export default {
           sortable: true
         },
         {
+          key: 'type',
+          label: '種類',
+          sortable: true
+        },
+        {
+          key: 'script',
+          label: '文字',
+          sortable: true
+        },
+        {
           key: 'book',
           label: '資源',
           sortable: true
@@ -39,7 +49,7 @@ export default {
   mounted () {
     const that = this
     axios
-      .get(process.env.BASE_URL + 'data/Conditions.json')
+      .get(process.env.BASE_URL + 'data/Language.json')
       .then((response) => {
         // 先排序再塞
         that.featsList = Object.keys(response.data)
@@ -53,7 +63,7 @@ export default {
         console.log(error)
       })
     axios
-      .get(process.env.BASE_URL + 'data/references/Conditions-Detail.json')
+      .get(process.env.BASE_URL + 'data/references/Languages-Detail.json')
       .then((response) => {
         // 先排序再塞
         that.featDetail = response.data

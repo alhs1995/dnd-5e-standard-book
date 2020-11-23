@@ -29,7 +29,7 @@
               <b-dropdown-item disabled>陷阱與危害</b-dropdown-item>
             </b-nav-item-dropdown>
             <b-nav-item-dropdown text="參考資料" right class="mr-4">
-              <b-dropdown-item disabled>語言</b-dropdown-item>
+              <b-dropdown-item to='/Reference/Languages'>語言</b-dropdown-item>
               <b-dropdown-item disabled>子職業能力</b-dropdown-item>
               <b-dropdown-item disabled>恩惠與獎勵</b-dropdown-item>
               <b-dropdown-item disabled>法術</b-dropdown-item>

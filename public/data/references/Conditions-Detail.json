@@ -15,9 +15,13 @@
   {
     "name":"Blinding Sickness",
     "itemName":"BlindingSickness",
-    "chtName":"Blinding Sickness",
+    "chtName":"失明症",
     "type":"疾病",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      "痛苦控制著生物的心靈，使它的雙眼變成乳白色。該生物在睿知檢定和睿知豁免中具有劣勢，且陷入目盲狀態。",
+      "此疾病可被疫病術造成。"
+    ]
   },
   {
     "name":"Charmed",
@@ -35,9 +39,20 @@
   {
     "name":"Concentration",
     "itemName":"Concentration",
-    "chtName":"Concentration",
+    "chtName":"專注",
     "type":"其他",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      "某些法術在需要你保持專注才能持續產生魔法。如果你失去專注，法術也隨即終結。",
+      "需要專注的法術會在它的時效項目中說明，也會指明專注時間的上限。你可以隨時停止專注，不需要動作。",
+      "包括移動和攻擊在內的正常活動不會影響你的專注。可以打擾專注的包括以下活動：",
+      [
+        "施展另一項需要專注的法術：當你施展另一項需要專注的法術時，你失去原來的專注。你不能同時專注兩項法術。",
+        "受傷：當你專注時，每當你受傷你都必需通過一次體質豁免才能維持自己的專注。難度為10或者一半所受傷害中的較高者。如果不同的東西令你受傷多次，例如箭矢和龍息，你需要為每一傷害源各投一次豁免。",
+        "乏力或被殺：當你乏力或者死亡，你也失去專注。"
+      ],
+      "地下城主也可以判定某些環境可能令你失去專注，例如暴風雨中掩面而來的巨浪，這時你需要通過一次難度10 的體質豁免去維持專注。"
+    ]
   },
   {
     "name":"Deafened",
@@ -106,16 +121,24 @@
   {
     "name":"Filth Fever",
     "itemName":"FilthFever",
-    "chtName":"Filth Fever",
+    "chtName":"穢熱病",
     "type":"疾病",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      " 一陣狂暴高燒橫掃生物的身體。該生物在力量檢定、力量豁免、和使用力量的攻擊檢定中具有劣勢。",
+      "此疾病可被疫病術造成。"
+    ]
   },
   {
     "name":"Flesh Rot",
     "itemName":"FleshRot",
-    "chtName":"Flesh Rot",
+    "chtName":"血肉潰爛",
     "type":"疾病",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      "該生物的血肉開始潰爛。該生物在體質檢定中具有劣勢，且對所有傷害易傷。",
+      "此疾病可被疫病術造成。"
+    ]
   },
   {
     "name":"Frightened",
@@ -172,9 +195,13 @@
   {
     "name":"Mindfire",
     "itemName":"Mindfire",
-    "chtName":"Mindfire",
+    "chtName":"腦熱症",
     "type":"疾病",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      "該生物的大腦發燒狂躁。該生物在智力檢定和智力豁免中具有劣勢，且該生物在戰鬥期間的行為就如同它處於困惑術的效果下。",
+      "此疾病可被疫病術造成。"
+    ]
   },
   {
     "name":"Paralyzed",
@@ -250,16 +277,24 @@
   {
     "name":"Seizure",
     "itemName":"Seizure",
-    "chtName":"Seizure",
+    "chtName":"癲癇",
     "type":"疾病",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      "該生物無法控制地顫抖。該生物在敏捷檢定、敏捷豁免、和使用敏捷的攻擊檢定中具有劣勢。",
+      "此疾病可被疫病術造成。"
+    ]
   },
   {
     "name":"Slimy Doom",
     "itemName":"SlimyDoom",
-    "chtName":"Slimy Doom",
+    "chtName":"黏濘惡疾",
     "type":"疾病",
-    "book":"PHB"
+    "book":"PHB",
+    "content":[
+      "該生物開始無法控制地流血。該生物在體質檢定和體質豁免中具有劣勢。此外，每當該生物受到傷害，它將被震懾直到它的下個回合結束。",
+      "此疾病可被疫病術造成。"
+    ]
   },
   {
     "name":"Stunned",

@@ -22,14 +22,18 @@
             <b-card-text v-if="selectedItemDetail.prerequisite">
               <small class="text-muted">先決條件：{{selectedItemDetail.prerequisite}}</small>
             </b-card-text>
+            <b-card-text v-if="selectedItemDetail.mutedText">
+              <small class="text-muted">{{selectedItemDetail.mutedText}}</small>
+            </b-card-text>
             <hr>
             <b-card-text align=left>
               <span v-for="(cont,key) in selectedItemDetail.content" :key=key>
                 <span v-if="typeof(cont) === 'string'">{{cont}}<br/></span>
-                <ul v-if="typeof(cont) === 'object' && Array.isArray(cont)">
+                <ul v-else-if="typeof(cont) === 'object' && Array.isArray(cont)">
                   <li v-for="(item,key) in cont" :key=key>{{item}}</li>
                 </ul>
-                <b-table v-if="typeof(cont) && !Array.isArray(cont)" :fields="cont.field" :items="cont.items" ></b-table>
+                <b-table v-else-if="typeof(cont) === 'object' && cont.field" small striped :fields="cont.field" :items="cont.items" ></b-table>
+                <span v-else-if="typeof(cont) === 'object' && cont.bold"><b>{{cont.bold}}</b> {{cont.content}} <br/></span>
               </span>
             </b-card-text>
           </b-card>
