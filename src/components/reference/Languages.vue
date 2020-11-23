@@ -17,11 +17,6 @@ export default {
       featsList: [],
       field: [
         {
-          key: 'type',
-          label: '類型',
-          sortable: true
-        },
-        {
           key: 'chtName',
           label: '名稱',
           sortable: true
