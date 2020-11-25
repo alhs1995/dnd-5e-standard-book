@@ -148,7 +148,7 @@ export default {
     bookColor (value) {
       switch (value) {
         case 'PHB':
-          return 'text-blue'
+          return 'text-PHB'
       }
     },
     profile (value) {
@@ -171,8 +171,5 @@ export default {
 <style scoped>
   span{
     line-height:normal;
-  }
-  .text-blue {
-    color: blue;
   }
 </style>

@@ -32,7 +32,7 @@
               <b-dropdown-item to='/Reference/Languages'>語言</b-dropdown-item>
               <b-dropdown-item disabled>子職業能力</b-dropdown-item>
               <b-dropdown-item disabled>恩惠與獎勵</b-dropdown-item>
-              <b-dropdown-item disabled>法術</b-dropdown-item>
+              <b-dropdown-item to='/Reference/Spells'>法術</b-dropdown-item>
               <b-dropdown-item to='/Reference/Conditions'>狀態與疾病</b-dropdown-item>
               <b-dropdown-item disabled>神祇</b-dropdown-item>
               <b-dropdown-item disabled>物品</b-dropdown-item>

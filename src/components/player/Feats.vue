@@ -83,12 +83,6 @@ export default {
   computed: {
   },
   filters: {
-    bookColor (value) {
-      switch (value) {
-        case 'PHB':
-          return 'text-blue'
-      }
-    }
   }
 }
 </script>
@@ -97,8 +91,5 @@ export default {
 <style scoped>
   span{
     line-height:normal;
-  }
-  .text-blue {
-    color: blue;
   }
 </style>
